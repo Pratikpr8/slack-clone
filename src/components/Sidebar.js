@@ -28,7 +28,7 @@ function Sidebar() {
           <h2>PP HQ</h2>
           <h3>
             <FiberManualRecordIcon />
-            Pratik Puri
+            {user?.displayName}
           </h3>
         </SidebarInfo>
         <CreateIcon />
